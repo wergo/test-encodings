@@ -10,13 +10,13 @@
 
       let expansion;
       expansion = "expansion-minimal";
-    //   expansion = "expansion-default";
-    //   expansion = "expansion-repeat";
+      //   expansion = "expansion-default";
+      expansion = "expansion-repeat";
 
       document.addEventListener("DOMContentLoaded", (event) => {
         verovio.module.onRuntimeInitialized = async (_) => {
           let tk = new verovio.toolkit();
-          console.log("Verovio has loaded!");
+          console.log("Verovio has loaded; version: " + tk.getVersion());
 
           fetch(meiName)
             .then((response) => response.text())
@@ -29,15 +29,15 @@
                 // expand: expansion,
               });
               document.getElementById("notation").innerHTML = svg;
-              console.log('Verovio engraved score.')
+              console.log("Verovio engraved score.");
 
               tk.setOptions({
                 expand: expansion,
               });
-              console.log('Options loaded.');
+              console.log("Options loaded.");
 
               tk.loadData(meiXML);
-              console.log('Data loaded.');
+              console.log("Data loaded.");
 
               let timemap = tk.renderToTimemap();
               console.log("Timemap: ", timemap);
