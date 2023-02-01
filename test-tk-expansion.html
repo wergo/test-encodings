@@ -6,10 +6,12 @@
     ></script>
     <script>
       let meiName =
-        "https://raw.githubusercontent.com/trompamusic-encodings/Beethoven_WoOAnh5_BreitkopfHaertel/master/Beethoven_WoOAnh5_Nr1_1-Breitkopf.mei";
+        "https://raw.githubusercontent.com/wergo/test-encodings/main/Repetition_Study.mei";
 
-      let expansion = 'expansion-minimal';
-    //   let expansion = "expansion-default";
+      let expansion;
+      expansion = "expansion-minimal";
+    //   expansion = "expansion-default";
+    //   expansion = "expansion-repeat";
 
       document.addEventListener("DOMContentLoaded", (event) => {
         verovio.module.onRuntimeInitialized = async (_) => {
@@ -19,16 +21,28 @@
           fetch(meiName)
             .then((response) => response.text())
             .then((meiXML) => {
-              tk.loadData(meiXML);
+              let svg = tk.renderData(meiXML, {
+                scale: 30,
+                adjustPageWidth: true,
+                pageWidth: 2100,
+                pageHeight: 500,
+                // expand: expansion,
+              });
+              document.getElementById("notation").innerHTML = svg;
+              console.log('Verovio engraved score.')
 
               tk.setOptions({
-                scale: 30,
                 expand: expansion,
               });
+              console.log('Options loaded.');
+
+              tk.loadData(meiXML);
+              console.log('Data loaded.');
 
               let timemap = tk.renderToTimemap();
               console.log("Timemap: ", timemap);
-              document.getElementById("notation").innerHTML =
+
+              document.getElementById("message").innerHTML =
                 'Timemap expansion="' +
                 expansion +
                 '" length: ' +
@@ -39,7 +53,8 @@
     </script>
   </head>
   <body>
-    <h1>Hello Verovio!</h1>
+    <h1>Verovio Toolkit Expansion Test</h1>
     <div id="notation"></div>
+    <div id="message"></div>
   </body>
 </html>
