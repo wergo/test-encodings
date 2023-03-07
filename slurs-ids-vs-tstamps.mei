@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Slur ids versus time stamps</title>
+         </titleStmt>
+         <pubStmt />
+      </fileDesc>
+      <encodingDesc xml:id="eqhpowl1">
+         <appInfo xml:id="apndz6">
+            <application xml:id="a1ohkay1" startdate="2023-03-06T16:53:53" version="0.8.6" enddate="2023-03-07T13:21:49">
+               <name xml:id="nnlndjp1">mei-friend</name>
+               <p xml:id="pyy90j1">First edit by mei-friend 0.8.5, 28 Feb 2023.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mdiv-lmorjh">
+            <score xml:id="score-5kpngm2">
+               <scoreDef xml:id="scoreDef-vphgc61" meter.count="6" meter.unit="8">
+                  <staffGrp xml:id="staffGrp-9u2fbg">
+                     <staffDef xml:id="staffDef-n9xvjr2" n="1" lines="5" clef.shape="F" clef.line="4" />
+                     <staffDef xml:id="staffDef-gqrw181" n="2" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="section-trvte8">
+                  <measure xml:id="measure-f8qggv2" n="1">
+                     <staff xml:id="staff-8gvjf2" n="1">
+                        <layer xml:id="layer-sc6efp1" n="1">
+                           <beam xml:id="beam-2s35sd">
+                              <note xml:id="note-nhu5ov1" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-4qy6r5" dur="8" oct="4" pname="a" stem.dir="down" />
+                              <note xml:id="note-2xcgig" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="beam-2bp5df1">
+                              <note xml:id="note-e52jiq2" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-1rkc05" dur="8" oct="5" pname="d" stem.dir="down" />
+                              <note xml:id="note-gsswab1" dur="8" oct="4" pname="f" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-ra86s1" n="2">
+                        <layer xml:id="layer-5858h31" n="1">
+                           <beam xml:id="beam-kw4ftg1">
+                              <note xml:id="note-6we2sw2" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-yvyup2" dur="8" oct="4" pname="a" stem.dir="down" />
+                              <note xml:id="note-2tyxnx1" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="beam-l58wu8">
+                              <note xml:id="note-hggrsn2" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-yc8cp2" dur="8" oct="5" pname="d" stem.dir="down" />
+                              <note xml:id="note-dqsdag1" dur="8" oct="4" pname="f" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="slur-unv2bl2" staff="1" startid="#note-nhu5ov1" endid="#note-gsswab1" />
+                     <slur xml:id="slur-i6av3r2" staff="2" tstamp="1.000000" tstamp2="0m+6.0000" />
+                     <hairpin xml:id="hairpin-2g5pte" staff="1" startid="#note-nhu5ov1" endid="#note-gsswab1" form="cres" />
+                     <hairpin xml:id="hairpin-h6ymzr2" staff="2" tstamp="1.000000" tstamp2="0m+6.0000" form="cres" place="below" />
+                     <dir xml:id="dir-vhbjp3" place="above" staff="1" startid="#note-nhu5ov1">startid/endid</dir>
+                     <dir xml:id="dir-aagni4" place="below" staff="2" tstamp="1.000000">tstamp/tstamp2</dir>
+                  </measure>
+                  <measure xml:id="measure-v205671" n="2">
+                     <staff xml:id="staff-mnrq8f" n="1">
+                        <layer xml:id="layer-3bizop1" n="1">
+                           <beam xml:id="beam-njn768">
+                              <note xml:id="note-mjnzgc1" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-vofjcj1" dur="8" oct="2" pname="g" stem.dir="down" />
+                              <note xml:id="note-z0fqmq1" dur="8" oct="3" pname="f" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="beam-991nnv2">
+                              <note xml:id="note-4u81fo1" dur="8" oct="4" pname="f" stem.dir="down" />
+                              <note xml:id="note-4wxbmc1" dur="8" oct="4" pname="c" stem.dir="down" />
+                              <note xml:id="note-nhwwvx2" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-uwxmw51" n="2">
+                        <layer xml:id="layer-yofj3e1" n="1">
+                           <beam xml:id="beam-vfbzyz1">
+                              <note xml:id="note-npnybk1" dur="8" oct="4" pname="d" stem.dir="down" />
+                              <note xml:id="note-vcrf831" dur="8" oct="2" pname="g" stem.dir="down" />
+                              <note xml:id="note-el7dcn2" dur="8" oct="3" pname="f" stem.dir="down" />
+                           </beam>
+                           <beam xml:id="beam-hd9xqh">
+                              <note xml:id="note-xlgbmw2" dur="8" oct="4" pname="f" stem.dir="down" />
+                              <note xml:id="note-wme5ar1" dur="8" oct="4" pname="c" stem.dir="down" />
+                              <note xml:id="note-ypl5w9" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="slur-9qbhic1" staff="1" startid="#note-mjnzgc1" endid="#note-vofjcj1" />
+                     <slur xml:id="slur-2v0g0b1" staff="1" startid="#note-z0fqmq1" endid="#note-4u81fo1" />
+                     <slur xml:id="slur-29kilf" staff="1" startid="#note-4wxbmc1" endid="#note-nhwwvx2" />
+                     <slur xml:id="slur-1ak5fr2" staff="2" tstamp="1.000000" tstamp2="0m+2.0000" />
+                     <slur xml:id="slur-8f5k631" staff="2" tstamp="3.000000" tstamp2="0m+4.0000" />
+                     <slur xml:id="slur-m1v3bw1" staff="2" tstamp="5.000000" tstamp2="0m+6.0000" />
+                     <dynam xml:id="dynam-i2uoo91" place="above" staff="1" startid="#note-mjnzgc1">mf</dynam>
+                     <dynam xml:id="dynam-l97yfb" place="above" staff="2" tstamp="1.000000">mf</dynam>
+                     <mordent xml:id="mordent-xm6628" staff="1" startid="#note-vofjcj1" />
+                     <mordent xml:id="mordent-9jvgsk1" staff="2" tstamp="2.000000" />
+                     <pedal xml:id="pedal-biwpfk1" staff="1" startid="#note-z0fqmq1" dir="down" vgrp="1" />
+                     <pedal xml:id="pedal-3w1e9o1" staff="1" startid="#note-4u81fo1" dir="up" vgrp="1" />
+                     <pedal xml:id="pedal-nnzevl2" staff="2" tstamp="3.000000" dir="down" vgrp="2" />
+                     <pedal xml:id="pedal-x5r2aw2" staff="2" tstamp="4.000000" dir="up" vgrp="2" />
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
