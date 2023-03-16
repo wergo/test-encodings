@@ -26,7 +26,7 @@
       <body>
          <mdiv xml:id="m4x9w72">
             <score xml:id="s130l825">
-               <scoreDef xml:id="sy03eph" mm="88" mm.unit="2" mm.dots="1">
+               <scoreDef xml:id="sy03eph" mm="144" mm.unit="2" mm.dots="1">
                   <staffGrp xml:id="s1cz2i29">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="1">
                         <instrDef xml:id="i1sta03d" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
