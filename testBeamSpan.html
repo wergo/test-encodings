@@ -1,0 +1,28 @@
+<div id="notation"></div>
+<script src="https://www.verovio.org/javascript/latest/verovio-toolkit-hum.js"></script>
+<script>
+  const meiFile =
+    "https://raw.githubusercontent.com/wergo/test-encodings/main/nothertest.mei";
+  const options = { transposeToSoundingPitch: true };
+
+  verovio.module.onRuntimeInitialized = function () {
+    const tk = new verovio.toolkit();
+    console.log("Vervio version: " + tk.getVersion());
+    fetch(meiFile)
+      .then((response) => {
+        return response.text();
+      })
+      .then((meiData) => {
+        tk.setOptions(options);
+        tk.loadData(meiData);
+        console.log(tk.getPageCount() + " pages in " + meiFile);
+        const svg = tk.renderToSVG(1);
+        document.getElementById("notation").innerHTML =
+          "<h1>Verovio: " + tk.getVersion() + "</h1>";
+        document.getElementById("notation").innerHTML +=
+          "<p>" + JSON.stringify(options) + "</p>";
+        document.getElementById("notation").innerHTML += svg;
+        console.log(tk.getOptions());
+      });
+  };
+</script>
