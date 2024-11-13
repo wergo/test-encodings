@@ -11,7 +11,7 @@
       </fileDesc>
       <encodingDesc xml:id="eqhpowl1">
          <appInfo xml:id="apndz6">
-            <application xml:id="a1ohkay1" startdate="2023-03-06T16:53:53" version="0.8.6" enddate="2023-03-07T13:21:49">
+            <application xml:id="a1ohkay1" enddate="2024-11-13T10:50:32" startdate="2023-03-06T16:53:53" version="1.0.16">
                <name xml:id="nnlndjp1">mei-friend</name>
                <p xml:id="pyy90j1">First edit by mei-friend 0.8.5, 28 Feb 2023.</p>
             </application>
@@ -37,11 +37,9 @@
                               <note xml:id="note-4qy6r5" dur="8" oct="4" pname="a" stem.dir="down" />
                               <note xml:id="note-2xcgig" dur="8" oct="5" pname="c" stem.dir="down" />
                            </beam>
-                           <beam xml:id="beam-2bp5df1">
-                              <note xml:id="note-e52jiq2" dur="8" oct="4" pname="d" stem.dir="down" />
-                              <note xml:id="note-1rkc05" dur="8" oct="5" pname="d" stem.dir="down" />
-                              <note xml:id="note-gsswab1" dur="8" oct="4" pname="f" stem.dir="down" />
-                           </beam>
+                           <note xml:id="note-e52jiq2" dur="8" oct="4" pname="d" stem.dir="down"/>
+                           <note xml:id="note-1rkc05" dur="8" oct="5" pname="d" stem.dir="down"/>
+                           <note xml:id="note-gsswab1" dur="8" oct="4" pname="f" stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff xml:id="staff-ra86s1" n="2">
@@ -64,15 +62,14 @@
                      <hairpin xml:id="hairpin-h6ymzr2" staff="2" tstamp="1.000000" tstamp2="0m+6.0000" form="cres" place="below" />
                      <dir xml:id="dir-vhbjp3" place="above" staff="1" startid="#note-nhu5ov1">startid/endid</dir>
                      <dir xml:id="dir-aagni4" place="below" staff="2" tstamp="1.000000">tstamp/tstamp2</dir>
+                     <beamSpan xml:id="b6ewvrz2" endid="#note-z0fqmq1" plist="#note-e52jiq2 #note-1rkc05 #note-gsswab1 #note-mjnzgc1 #note-vofjcj1 #note-z0fqmq1" startid="#note-e52jiq2"/>
                   </measure>
                   <measure xml:id="measure-v205671" n="2">
                      <staff xml:id="staff-mnrq8f" n="1">
                         <layer xml:id="layer-3bizop1" n="1">
-                           <beam xml:id="beam-njn768">
-                              <note xml:id="note-mjnzgc1" dur="8" oct="4" pname="d" stem.dir="down" />
-                              <note xml:id="note-vofjcj1" dur="8" oct="2" pname="g" stem.dir="down" />
-                              <note xml:id="note-z0fqmq1" dur="8" oct="3" pname="f" stem.dir="down" />
-                           </beam>
+                           <note xml:id="note-mjnzgc1" dur="8" oct="4" pname="d" stem.dir="down"/>
+                           <note xml:id="note-vofjcj1" dur="8" oct="2" pname="g" stem.dir="down"/>
+                           <note xml:id="note-z0fqmq1" dur="8" oct="3" pname="f" stem.dir="down"/>
                            <beam xml:id="beam-991nnv2">
                               <note xml:id="note-4u81fo1" dur="8" oct="4" pname="f" stem.dir="down" />
                               <note xml:id="note-4wxbmc1" dur="8" oct="4" pname="c" stem.dir="down" />
