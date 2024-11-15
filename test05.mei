@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <pubStmt></pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application isodate="2024-11-15T14:05:07" version="4.3.1-3b8cc17">
+               <name>Verovio</name>
+               <p>Transcoded from abc music</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <workList>
+         <work n="1" data="#m1iq7pzw">
+            <title xml:id="abcLine03" analog="abc:T" type="main">Chords</title>
+         </work>
+      </workList>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1iq7pzw" n="1">
+            <score xml:id="s14za5d7">
+               <scoreDef xml:id="s1g055ic" dur.default="16" key.mode="major" key.pname="c">
+                  <pgHead xml:id="p1aoa9wy">
+                     <rend xml:id="r1ntqw5p" halign="center" valign="middle">Chords</rend>
+                  </pgHead>
+                  <staffGrp xml:id="s1ygz1y8">
+                     <staffDef xml:id="s1w4yh4l" n="1" lines="5" trans.semi="0">
+                        <clef xml:id="c1ucl8as" shape="G" line="2" />
+                        <meterSig xml:id="m2q8tao" count="2" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s4t17we">
+                  <pb xml:id="abcLine06" />
+                  <measure xml:id="m1nvig58" right="single">
+                     <staff xml:id="ssl02vd" n="1">
+                        <layer xml:id="l1i4sb8o" n="1">
+                           <chord xml:id="c15p8jz1" dur="16">
+                              <note xml:id="nbt38mi" oct="4" pname="c" />
+                              <note xml:id="n1vmuo2k" oct="4" pname="e" />
+                              <note xml:id="n1p3nkyo" oct="4" pname="g" />
+                              <note xml:id="n1u4yrjg" oct="5" pname="c" />
+                           </chord>
+                           <chord xml:id="c98y606" dur="8">
+                              <note xml:id="n1a91v9h" oct="4" pname="c" />
+                              <note xml:id="n17ouwfe" oct="4" pname="g" />
+                           </chord>
+                           <beam xml:id="b1u2gcvg">
+                              <chord xml:id="c1cym0h2" dur="16">
+                                 <note xml:id="ni75f09" oct="4" pname="c" />
+                                 <note xml:id="np35cop" oct="4" pname="e" />
+                              </chord>
+                              <chord xml:id="cf485i3" dur="16">
+                                 <note xml:id="n6mp3gz" oct="4" pname="d" />
+                                 <note xml:id="ndsl84p" oct="4" pname="f" />
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m7tkg94" right="end">
+                     <staff xml:id="spqxmeo" n="1">
+                        <layer xml:id="l163iz3c" n="1">
+                           <beam xml:id="bwefkn0">
+                              <chord xml:id="c1l6zig8" dur="8">
+                                 <note xml:id="n1hlloq2" oct="4" pname="d" />
+                                 <note xml:id="n1n1b6v9" oct="4" pname="f" />
+                              </chord>
+                              <chord xml:id="cjcdaf3" dur="16">
+                                 <note xml:id="nptjb3l" oct="4" pname="e" />
+                                 <note xml:id="n1aoktf6" oct="4" pname="g" />
+                              </chord>
+                              <chord xml:id="c703yt3" dur="16">
+                                 <note xml:id="nhvcl34" oct="4" pname="f" />
+                                 <note xml:id="n37yyla" oct="4" pname="a" />
+                              </chord>
+                           </beam>
+                           <chord xml:id="c1xnrrsy" dur="4">
+                              <note xml:id="n14753kf" oct="4" pname="a" />
+                              <note xml:id="nq8zwjv" oct="5" pname="d" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="abcLine07" />
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
