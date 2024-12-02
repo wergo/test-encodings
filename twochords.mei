@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Ledgerlines width</title>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="eebwa2c1">
+         <appInfo xml:id="a3jmrug1">
+            <application xml:id="ab7ru37" enddate="2024-12-02T17:22:30" startdate="2024-12-02T17:20:38" version="1.0.16">
+               <name xml:id="nf3r6d8">mei-friend</name>
+               <p xml:id="p26a7x21">First edit by mei-friend 1.0.16, 10 September 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="mpwqkz1">
+      <body xml:id="bdw24ll1">
+         <mdiv xml:id="mwt55xh">
+            <score xml:id="s9ednt91">
+               <scoreDef xml:id="sb2ihk81">
+                  <staffGrp xml:id="s2zqmnj2">
+                     <staffDef xml:id="sm4dtcv1" clef.line="2" clef.shape="G" lines="5" n="1"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="sufbdbm1">
+                  <measure xml:id="mzk9ihe1" n="1">
+                     <staff xml:id="ssocw8r1" n="1">
+                        <layer xml:id="l0yiuf41" n="1">
+                           <chord xml:id="c70il401" dur="2">
+                              <note xml:id="n2avmzh1" oct="5" pname="a"/>
+                              <note xml:id="nysrdnb" oct="6" pname="a"/>
+                              <note xml:id="ni84eil1" oct="6" pname="c"/>
+                           </chord>
+                           <chord xml:id="c70nl401" dur="2">
+                              <note xml:id="n2evmzh1" oct="2" pname="a"/>
+                              <note xml:id="nysddnb" oct="3" pname="a"/>
+                              <note xml:id="ni84dil1" oct="3" pname="f"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
