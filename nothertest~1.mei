@@ -20,7 +20,7 @@
                <name xml:id="n1cyesou">Verovio</name>
                <p xml:id="p1lwwd0l">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a51m77d1" enddate="2024-12-02T14:58:36" startdate="2024-12-02T14:58:36" version="1.0.14p">
+            <application xml:id="a51m77d1" enddate="2024-12-02T15:05:17" startdate="2024-12-02T14:58:36" version="1.0.16">
                <name xml:id="n4a9qs4">mei-friend</name>
                <p xml:id="pcxxzxr1">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
             </application>
@@ -88,7 +88,7 @@
                         </layer>
                         <layer xml:id="lqxb75e" n="6">
                            <beam xml:id="br50fj9">
-                              <note xml:id="n12wyipy" dur.ppq="1" dur="16" oct="2" pname="f" stem.dir="down" />
+                              <note xml:id="n12wyipy" dur="16" dur.ppq="1" oct="1" pname="f" stem.dir="down"/>
                               <note xml:id="nfoe9ob" breaksec="1" dur.ppq="1" dur="16" oct="2" pname="f" stem.dir="down" />
                               <note xml:id="nkbpvec" dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="down" />
                            </beam>
