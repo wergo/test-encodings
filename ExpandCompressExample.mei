@@ -57,7 +57,7 @@
                <section xml:id="Piece">
                   <expansion xml:id="minimal" plist="#Upbeat #A #A2 #B #A #A-Fine"/>
                   <expansion xml:id="default" plist="#Upbeat #A #A1 #A #A2 #B #A #A-Fine"/>
-                  <expansion xml:id="unsorted" plist="#Upbeat #B #A #A #A-Fine"/>
+                  <expansion xml:id="unsorted" plist="#Upbeat #B #A #A1 #A #A-Fine"/>
                   <section xml:id="Upbeat">
                      <measure xml:id="m1bg2ywy" n="0">
                         <staff xml:id="sxx5e47" n="1">
