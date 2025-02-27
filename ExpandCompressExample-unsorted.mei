@@ -242,7 +242,7 @@
                         <staff xml:id="s16odgrb" n="1">
                            <layer xml:id="l1nwnihq" n="1">
                               <note xml:id="n8fi8nw" dur.ppq="2" dur="2" oct="3" pname="a" stem.dir="up" />
-                              <note xml:id="n1wkpa1j" dur.ppq="1" dur="4" oct="4" pname="e" head.visible="false" stem.visible="false" />
+                              <note xml:id="n1wkpa1j" dur.ppq="1" dur="4" oct="4" pname="e" />
                            </layer>
                         </staff>
                         <staff xml:id="sjlx1sb" n="2">
