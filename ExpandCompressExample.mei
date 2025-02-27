@@ -20,7 +20,7 @@
                <name xml:id="n1ad5af1">Verovio</name>
                <p xml:id="p35a9cv">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="anpom9i1" startdate="2025-02-27T16:36:07" version="1.2.2">
+            <application xml:id="anpom9i1" enddate="2025-02-27T16:47:40" startdate="2025-02-27T16:36:07" version="1.2.2">
                <name xml:id="nj3oz5r2">mei-friend</name>
                <p xml:id="powkzbn1">First edit by mei-friend 1.2.2, 20 February 2025.</p>
             </application>
@@ -72,6 +72,9 @@
                         </staff>
                         <tempo xml:id="t10kixzj" midi.bpm="240" mm="80" mm.dots="1" mm.unit="2" place="above" staff="1" tstamp="1">
                            <rend xml:id="rujxk44" glyph.auth="smufl"></rend> = 80</tempo>
+                        <dir xml:id="deeoqyb" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="rtrbg7h" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold" halign="center">Upbeat</rend>
+                        </dir>
                      </measure>
                   </section>
                   <section xml:id="A">
@@ -97,6 +100,9 @@
                         </staff>
                         <dir xml:id="d1locd1b" place="above" staff="1" tstamp="0" type="segno">
                            <rend xml:id="rafb6g6" fontstyle="normal" glyph.auth="smufl" halign="center">𝄋</rend>
+                        </dir>
+                        <dir xml:id="deeok1b" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="r1tg1md1" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A</rend>
                         </dir>
                      </measure>
                      <measure xml:id="m1jv8zpt" n="2">
@@ -163,6 +169,9 @@
                               </chord>
                            </layer>
                         </staff>
+                        <dir xml:id="deeqkyb" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="riwdivq2" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A1</rend>
+                        </dir>
                      </measure>
                   </ending>
                   <ending xml:id="A2" lendsym="none" n="2.">
@@ -186,6 +195,9 @@
                               </chord>
                            </layer>
                         </staff>
+                        <dir xml:id="dweokyb" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="r1dbbtm1" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A2</rend>
+                        </dir>
                      </measure>
                   </ending>
                   <ending xml:id="A-Fine" lendsym="angledown" n="Fine">
@@ -204,6 +216,9 @@
                               </chord>
                            </layer>
                         </staff>
+                        <dir xml:id="deewkyb" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="r8jhuwc" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A-Fine</rend>
+                        </dir>
                      </measure>
                   </ending>
                   <section xml:id="B">
@@ -227,6 +242,9 @@
                               </chord>
                            </layer>
                         </staff>
+                        <dir xml:id="deeokyb" place="below" staff="1" tstamp="1" vgrp="2">
+                           <rend xml:id="rnjmn9d" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">B</rend>
+                        </dir>
                      </measure>
                      <measure xml:id="m1hhjjqg" n="8">
                         <staff xml:id="s5x38ea" n="1">
