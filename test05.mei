@@ -5,15 +5,19 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
          </titleStmt>
-         <pubStmt></pubStmt>
+         <pubStmt/>
       </fileDesc>
       <encodingDesc>
          <appInfo>
             <application isodate="2024-11-15T14:05:07" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from abc music</p>
+            </application>
+            <application xml:id="an42ah2" startdate="2025-05-28T09:42:28" version="1.2.5">
+               <name xml:id="nc2xl5r1">mei-friend</name>
+               <p xml:id="pann3i21">First edit by mei-friend 1.2.5, 7 May 2025.</p>
             </application>
          </appInfo>
       </encodingDesc>
@@ -44,10 +48,16 @@
                      <staff xml:id="ssl02vd" n="1">
                         <layer xml:id="l1i4sb8o" n="1">
                            <chord xml:id="c15p8jz1" dur="16">
-                              <note xml:id="nbt38mi" oct="4" pname="c" />
-                              <note xml:id="n1vmuo2k" oct="4" pname="e" />
-                              <note xml:id="n1p3nkyo" oct="4" pname="g" />
-                              <note xml:id="n1u4yrjg" oct="5" pname="c" />
+                              <note xml:id="nbt38mi" oct="4" pname="c">
+                                 <accid xml:id="anotg8d" accid="s"/>
+                              </note>
+                              <note xml:id="n1vmuo2k" oct="4" pname="f"/>
+                              <note xml:id="n1p3nkyo" oct="4" pname="g">
+                                 <accid xml:id="an8gcfg" accid="s"/>
+                              </note>
+                              <note xml:id="n1u4yrjg" oct="5" pname="c">
+                                 <accid xml:id="atr0xr61" accid="s"/>
+                              </note>
                            </chord>
                            <chord xml:id="c98y606" dur="8">
                               <note xml:id="n1a91v9h" oct="4" pname="c" />
