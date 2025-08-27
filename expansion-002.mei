@@ -6,21 +6,29 @@
       <fileDesc xml:id="fpse63">
          <titleStmt xml:id="t1rbrmhv">
             <title xml:id="tcxewkv1">Expand and compress</title>
+         </titleStmt>
+         <pubStmt xml:id="po49b18">
             <respStmt xml:id="rvyf06z1">
                <persName xml:id="ph3cjem1" role="composer">Werner Goebl</persName>
             </respStmt>
-         </titleStmt>
-         <pubStmt xml:id="po49b18">
             <date xml:id="dbsuhks1" isodate="2025-02-27" type="encoding-date">2025-02-27</date>
+            <pubPlace>
+               <ref target="https://github.com/rism-digital/verovio/pull/3972" />
+            </pubPlace>
          </pubStmt>
+         <seriesStmt xml:id="srwb2k61">
+            <title xml:id="thl8uaj1">Verovio test suite</title>
+         </seriesStmt>
+         <notesStmt xml:id="n3atgny2">
+            <annot xml:id="a98u7kf">Verovio supports different rendering of the score's repetition structure using the expansion element.</annot>
+         </notesStmt>
       </fileDesc>
       <encodingDesc xml:id="e157ayih">
          <appInfo xml:id="amae9l6">
-            <application xml:id="aabwu1m" isodate="2025-02-27T16:29:44" version="5.1.0-dev-f094ea4">
-               <name xml:id="n1ad5af1">Verovio</name>
-               <p xml:id="p35a9cv">Transcoded from MusicXML</p>
+            <application xml:id="a6defjg1" label="5.2" version="5.2.0-dev-4702b5e">
+               <name xml:id="ni7r92l1">Verovio</name>
             </application>
-            <application xml:id="anpom9i1" enddate="2025-08-27T14:11:49" startdate="2025-02-27T16:36:07" version="1.2.8">
+            <application xml:id="anpom9i1" enddate="2025-08-27T14:21:23" startdate="2025-02-27T16:36:07" version="1.2.8">
                <name xml:id="nj3oz5r2">mei-friend</name>
                <p xml:id="powkzbn1">First edit by mei-friend 1.2.2, 20 February 2025.</p>
             </application>
