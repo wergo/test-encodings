@@ -20,12 +20,12 @@
             <title xml:id="thl8uaj1">Verovio test suite</title>
          </seriesStmt>
          <notesStmt xml:id="n3atgny2">
-            <annot xml:id="a98u7kf">Verovio supports different rendering of the score's repetition structure using the expansion element.</annot>
+            <annot xml:id="a98u7kf">Verovio supports "expansion" @plist versions that reorder the original section structure.</annot>
          </notesStmt>
       </fileDesc>
       <encodingDesc xml:id="e157ayih">
          <appInfo xml:id="amae9l6">
-            <application xml:id="a6defjg1" label="5.2" version="5.2.0-dev-4702b5e">
+            <application xml:id="a6defjg1" label="2" version="5.2.0">
                <name xml:id="ni7r92l1">Verovio</name>
             </application>
             <application xml:id="anpom9i1" enddate="2025-08-27T14:24:22" startdate="2025-02-27T16:36:07" version="1.2.8">
@@ -80,7 +80,7 @@
                            <rend xml:id="rujxk44" glyph.auth="smufl"></rend> = 80
                         </tempo>
                         <dir xml:id="deeoqyb" place="below" staff="1" tstamp="1" vgrp="2">
-                           <rend xml:id="rtrbg7h" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold" halign="center">Upbeat</rend>
+                           <rend xml:id="rtrbg7h" color="red" fontsize="larger" fontstyle="normal" fontweight="bold" halign="center">Upbeat</rend>
                         </dir>
                      </measure>
                   </section>
@@ -109,7 +109,7 @@
                            <rend xml:id="rafb6g6" fontstyle="normal" glyph.auth="smufl" halign="center">𝄋</rend>
                         </dir>
                         <dir xml:id="deeok1b" place="below" staff="1" tstamp="1" vgrp="2">
-                           <rend xml:id="r1tg1md1" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A</rend>
+                           <rend xml:id="r1tg1md1" color="red" fontsize="larger" fontstyle="normal" fontweight="bold">A</rend>
                         </dir>
                      </measure>
                      <measure xml:id="m1jv8zpt" n="2">
@@ -177,7 +177,7 @@
                            </layer>
                         </staff>
                         <dir xml:id="deeqkyb" place="below" staff="1" tstamp="1" vgrp="2">
-                           <rend xml:id="riwdivq2" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A1</rend>
+                           <rend xml:id="riwdivq2" color="red" fontsize="larger" fontstyle="normal" fontweight="bold">A1</rend>
                         </dir>
                      </measure>
                   </ending>
@@ -203,7 +203,7 @@
                            </layer>
                         </staff>
                         <dir xml:id="dweokyb" place="below" staff="1" tstamp="1" vgrp="2">
-                           <rend xml:id="r1dbbtm1" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A2</rend>
+                           <rend xml:id="r1dbbtm1" color="red" fontsize="larger" fontstyle="normal" fontweight="bold">A2</rend>
                         </dir>
                      </measure>
                   </ending>
@@ -224,7 +224,7 @@
                            </layer>
                         </staff>
                         <dir xml:id="deewkyb" place="below" staff="1" tstamp="1" vgrp="2">
-                           <rend xml:id="r8jhuwc" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">A-Fine</rend>
+                           <rend xml:id="r8jhuwc" color="red" fontsize="larger" fontstyle="normal" fontweight="bold">A-Fine</rend>
                         </dir>
                      </measure>
                   </ending>
@@ -250,7 +250,7 @@
                            </layer>
                         </staff>
                         <dir xml:id="deeokyb" place="below" staff="1" tstamp="1">
-                           <rend xml:id="rnjmn9d" color="deeppink" fontsize="larger" fontstyle="normal" fontweight="bold">B</rend>
+                           <rend xml:id="rnjmn9d" color="red" fontsize="larger" fontstyle="normal" fontweight="bold">B</rend>
                         </dir>
                      </measure>
                      <measure xml:id="m1hhjjqg" n="8">
