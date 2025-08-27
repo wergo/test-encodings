@@ -12,8 +12,8 @@
                <persName xml:id="ph3cjem1" role="composer">Werner Goebl</persName>
             </respStmt>
             <date xml:id="dbsuhks1" isodate="2025-02-27" type="encoding-date">2025-02-27</date>
-            <pubPlace>
-               <ref target="https://github.com/rism-digital/verovio/pull/3972" />
+            <pubPlace xml:id="pwggg5d1">
+               <ref xml:id="rdlkkgp1" target="https://github.com/rism-digital/verovio/pull/3972"/>
             </pubPlace>
          </pubStmt>
          <seriesStmt xml:id="srwb2k61">
@@ -28,7 +28,7 @@
             <application xml:id="a6defjg1" label="5.2" version="5.2.0-dev-4702b5e">
                <name xml:id="ni7r92l1">Verovio</name>
             </application>
-            <application xml:id="anpom9i1" enddate="2025-08-27T14:21:23" startdate="2025-02-27T16:36:07" version="1.2.8">
+            <application xml:id="anpom9i1" enddate="2025-08-27T14:24:22" startdate="2025-02-27T16:36:07" version="1.2.8">
                <name xml:id="nj3oz5r2">mei-friend</name>
                <p xml:id="powkzbn1">First edit by mei-friend 1.2.2, 20 February 2025.</p>
             </application>
