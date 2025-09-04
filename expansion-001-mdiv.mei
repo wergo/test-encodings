@@ -40,6 +40,7 @@
          <mdiv xml:id="m4z5dnj1">
             <expansion xml:id="expansion-minimal" plist="#menuett-minimal #trio-minimal #menuett-minimal" />
             <expansion xml:id="expansion-default" plist="#menuett-default #trio-default #menuett-minimal" />
+            <expansion xml:id="expansion-full" plist="#menuett-default #trio-default #menuett-default" />
             <mdiv xml:id="m4x9w72">
                <score xml:id="s130l825">
                   <scoreDef xml:id="sy03eph" mm="144" mm.dots="1" mm.unit="2">
