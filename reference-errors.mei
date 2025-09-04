@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xml:id="mnc89xt1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xml:id="mnc89xt1" meiversion="5.1" xmlns="http://www.music-encoding.org/ns/mei">
    <meiHead xml:id="m6j07sm1">
       <fileDesc xml:id="flz0kd5">
          <titleStmt xml:id="t0n43xx1">
-            <title xml:id="t4nwbf3">Tutorial: MEI encoding of Mary had a little lamb</title>
+            <title xml:id="t4nwbf3">Linking, plist, time spanning errors</title>
             <respStmt xml:id="rfaygk21">
-               <persName xml:id="pmq0gye1" role="encoder">Stefan Münnich</persName>
-               <persName xml:id="p3mmxi71" role="encoder">David Weigl</persName>
+               <persName xml:id="pmq0gye1" role="encoder">Werner Goebl</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="pdpo919"/>
       </fileDesc>
       <encodingDesc xml:id="evl3qn91">
          <appInfo xml:id="adfibm7">
-            <application xml:id="awd0wme1" enddate="2025-09-04T11:27:48" startdate="2023-03-08T09:52:14" version="1.2.8">
+            <application xml:id="awd0wme1" enddate="2025-09-04T11:35:34" startdate="2023-03-08T09:52:14" version="1.2.8">
                <name xml:id="nvr68ni2">mei-friend</name>
                <p xml:id="pxc2lza1">First edit by mei-friend 0.8.4, 27 Feb 2023.</p>
             </application>
@@ -37,22 +36,28 @@
                         <layer xml:id="lzm3n9m1" n="1">
                            <note xml:id="novk0hd1" dur="4" oct="4" pname="a"/>
                            <note xml:id="nk8v08m2" dur="4" oct="4" pname="a"/>
-                           <note xml:id="nt5yaor1" dur="4" oct="4" pname="a"/>
-                           <note xml:id="nakyfhu1" dur="4" oct="4" pname="a"/>
+                           <note xml:id="nt5yaor1" dur="8" oct="4" pname="a" stem.sameas="asdf"/>
+                           <note xml:id="nakyfhu1" dur="8" next="#asdf" oct="4" pname="a"/>
+                           <note xml:id="nv3b6131" sameas="nakyfhu1"/>
                         </layer>
                      </staff>
-                     <slur xml:id="swo2yy6" endid="#nk8v08m2" staff="1" startid="#novk0hd1"/>
-                     <dir xml:id="d91b2lm1" staff="1" tstamp="3" tstamp2="1">dolce</dir>
+                     <slur xml:id="swo2yy6" endid="#nk8v08m2" staff="1" startid="#nowvk0hd1"/>
+                     <dir xml:id="d91b2lm1" staff="1" tstamp="3" tstamp2="4">dolce</dir>
+                     <beamSpan xml:id="b2sirh11" endid="#nxlttr21" plist="#nt5yor1 #nakyfhu1 #ntk4sdv2 #nxlttr21" startid="#nt5yaor1"/>
                   </measure>
                   <measure xml:id="m87vp2z1" n="2">
                      <staff xml:id="shbxreb" n="1">
                         <layer xml:id="lokx29a" n="1">
-                           <note xml:id="ntk4sdv2" dur="4" oct="4" pname="a"/>
-                           <note xml:id="nxlttr21" dur="4" oct="4" pname="a"/>
-                           <note xml:id="n4ppon2" dur="4" oct="4" pname="a"/>
-                           <note xml:id="ndzfaw61" dur="4" oct="4" pname="a"/>
+                           <note xml:id="ntk4sdv2" dur="8" oct="4" pname="a"/>
+                           <note xml:id="nxlttr21" dur="8" oct="4" pname="a"/>
+                           <chord xml:id="ccn9mj91" dur="4">
+                              <note xml:id="n4ppon2" oct="4" pname="a"/>
+                              <note xml:id="ndzfaw61" oct="5" pname="e"/>
+                           </chord>
                         </layer>
                      </staff>
+                     <hairpin xml:id="hau5p8h1" endid="#nxlttr21" form="cres" staff="1" startid="#tk4sdv2"/>
+                     <hairpin xml:id="h78y0um2" form="dim" staff="1" tstamp="3" tstamp2="4"/>
                   </measure>
                </section>
             </score>
