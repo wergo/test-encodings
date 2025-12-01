@@ -21,7 +21,7 @@
                <name xml:id="nslrjs3">Verovio</name>
                <p xml:id="p18qr6jb">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a2d0ssp1" enddate="2025-12-01T14:08:10" startdate="2025-12-01T13:46:27" version="1.2.9">
+            <application xml:id="a2d0ssp1" enddate="2025-12-01T14:09:41" startdate="2025-12-01T13:46:27" version="1.2.9">
                <name xml:id="nlnjefk1">mei-friend</name>
                <p xml:id="pecanq8">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -249,7 +249,7 @@
                      <slur xml:id="l1q997tk" curvedir="above" endid="#vx5jr7y" startid="#krej62r"/>
                      <tie xml:id="g11a5mer" endid="#rtw2ac8" startid="#f1g5tunq"/>
                   </measure>
-                  <sb />
+                  <sb xml:id="s8numxa"/>
                   <measure xml:id="l142dsao" metcon="false" n="6">
                      <staff xml:id="u1vd056b" n="1">
                         <layer xml:id="w1uuzucs" n="1">
@@ -469,7 +469,7 @@
                      <slur xml:id="e1yjvaas" curvedir="above" endid="#w18ogphs" startid="#cgsrszn"/>
                      <slur xml:id="c17lx3cm" endid="#u11u1d1l" startid="#boh0aty"/>
                   </measure>
-                  <sb />
+                  <sb xml:id="sz38ymu2"/>
                   <measure xml:id="fs69iw8" n="12">
                      <staff xml:id="od5gorc" n="1">
                         <layer xml:id="q1vjwg12" n="1">
@@ -616,14 +616,14 @@
                      <staff xml:id="sfct7od" n="2">
                         <layer xml:id="bka6fqm" n="5">
                            <beam xml:id="cnbwj39" place="mixed">
-                              <tuplet xml:id="d2pcymf" bracket.visible="false" num="3" numbase="2" num.visible="false" >
+                              <tuplet xml:id="d2pcymf" bracket.visible="false" num="3" num.visible="false" numbase="2">
                                  <note xml:id="e1uxi1af" dur="8" dur.ppq="4" oct="3" pname="b" stem.dir="up"/>
                                  <note xml:id="f1vtym5l" dur="8" dur.ppq="4" oct="4" pname="d" stem.dir="up"/>
                                  <note xml:id="g1xmzf51" dur="8" dur.ppq="4" oct="4" pname="g" staff="1" stem.dir="up"/>
                               </tuplet>
                            </beam>
                            <beam xml:id="jzto416" place="mixed">
-                              <tuplet xml:id="kjtmsy0" bracket.visible="false" num="3" numbase="2" num.visible="false" >
+                              <tuplet xml:id="kjtmsy0" bracket.visible="false" num="3" num.visible="false" numbase="2">
                                  <note xml:id="l1a59k1j" dur="8" dur.ppq="4" oct="3" pname="b" stem.dir="up">
                                     <accid xml:id="mswfog9" accid="f"/>
                                  </note>
@@ -644,7 +644,7 @@
                      <slur xml:id="vjht6af" endid="#lxe2qqn" startid="#uc8lem4"/>
                      <dynam xml:id="z1nerwnh" place="below" staff="1" tstamp="1" val="45" vgrp="1">p</dynam>
                   </measure>
-                  <sb />
+                  <sb xml:id="slkhyiw1"/>
                   <measure xml:id="vv66bpe" n="16">
                      <staff xml:id="ehw4v4l" n="1">
                         <layer xml:id="g1wkxkt" n="1">
@@ -658,14 +658,14 @@
                      <staff xml:id="f124ew0a" n="2">
                         <layer xml:id="owrku4y" n="5">
                            <beam xml:id="picucq5" place="mixed">
-                              <tuplet xml:id="q3vho50" bracket.visible="false" num="3" numbase="2" num.visible="false" >
+                              <tuplet xml:id="q3vho50" bracket.visible="false" num="3" num.visible="false" numbase="2">
                                  <note xml:id="r1xmapub" dur="8" dur.ppq="4" oct="3" pname="a" stem.dir="up"/>
                                  <note xml:id="st6h4" dur="8" dur.ppq="4" oct="4" pname="d" stem.dir="up"/>
                                  <note xml:id="thbdq87" accid.ges="s" dur="8" dur.ppq="4" oct="4" pname="f" staff="1" stem.dir="up"/>
                               </tuplet>
                            </beam>
                            <beam xml:id="x1509f7a" place="mixed">
-                              <tuplet xml:id="y1pur47a" bracket.visible="false" num="3" numbase="2" num.visible="false" >
+                              <tuplet xml:id="y1pur47a" bracket.visible="false" num="3" num.visible="false" numbase="2">
                                  <note xml:id="z18p7cg" dur="8" dur.ppq="4" oct="4" pname="c" stem.dir="up">
                                     <accid xml:id="a1g1j115" accid="n" func="caution"/>
                                  </note>
