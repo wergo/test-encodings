@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei
+    xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2025-12-31T12:06:14.378Z" version="1.0.2">
+                    <name>Deep Optical Measure Detector</name>
+                    <p>Measures detected with Deep Optical Measure Detector</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+            <surface xml:id="surface_01KDT4TC3BA5Z1HEA9YDJTYNF8" n="1" ulx="0" uly="0" lrx="594" lry="827">
+                <graphic xml:id="graphic_01KDT4TC3CEHYT9XXM96GV3T2J" target="WideLandscape.jpg" width="595" height="828"/>
+                <zone xml:id="zone_01KDT4TC3DC86FQBCWB2PBRZX3" type="measure" ulx="35" uly="53" lrx="182" lry="182"/>
+                <zone xml:id="zone_01KDT4TC3DDSDA1GJAZQG3C6RS" type="measure" ulx="169" uly="60" lrx="279" lry="182"/>
+                <zone xml:id="zone_01KDT4TC3DM89VJBJYZH3XXJ0G" type="measure" ulx="266" uly="64" lrx="375" lry="184"/>
+                <zone xml:id="zone_01KDT4TC3DXHTYHH1271HTFXFS" type="measure" ulx="362" uly="65" lrx="470" lry="185"/>
+                <zone xml:id="zone_01KDT4TC3DP97QK9CTZDH6JTTB" type="measure" ulx="455" uly="61" lrx="576" lry="187"/>
+                <zone xml:id="zone_01KDT4TC3DBH8YQ3ARDMKXXHA7" type="measure" ulx="11" uly="169" lrx="163" lry="308"/>
+                <zone xml:id="zone_01KDT4TC3DF4T556C9CRG21NE8" type="measure" ulx="148" uly="172" lrx="244" lry="306"/>
+                <zone xml:id="zone_01KDT4TC3E4YK44G86FFXWQM2R" type="measure" ulx="231" uly="176" lrx="276" lry="305"/>
+                <zone xml:id="zone_01KDT4TC3E2EPKKDZ21TMP2229" type="measure" ulx="263" uly="175" lrx="357" lry="305"/>
+                <zone xml:id="zone_01KDT4TC3ER6JM9135NTRXZVYJ" type="measure" ulx="346" uly="174" lrx="466" lry="304"/>
+                <zone xml:id="zone_01KDT4TC3EHKK41P04HY3WMCCX" type="measure" ulx="454" uly="180" lrx="560" lry="303"/>
+                <zone xml:id="zone_01KDT4TC3EJ6Y4GDAN6JY0K33F" type="measure" ulx="9" uly="296" lrx="156" lry="432"/>
+                <zone xml:id="zone_01KDT4TC3ENZY3AF91VMHG95JZ" type="measure" ulx="142" uly="296" lrx="288" lry="434"/>
+                <zone xml:id="zone_01KDT4TC3ERGD5467RTDDJEBJY" type="measure" ulx="274" uly="294" lrx="397" lry="437"/>
+                <zone xml:id="zone_01KDT4TC3E56V2K664YAXZS55N" type="measure" ulx="385" uly="295" lrx="488" lry="435"/>
+                <zone xml:id="zone_01KDT4TC3F3FDM674C2T6B46TG" type="measure" ulx="476" uly="294" lrx="578" lry="432"/>
+                <zone xml:id="zone_01KDT4TC3FS5E3RD9SEV0VCDWG" type="measure" ulx="13" uly="423" lrx="151" lry="556"/>
+                <zone xml:id="zone_01KDT4TC3FJWJCF2EDGYCW3D38" type="measure" ulx="138" uly="423" lrx="245" lry="553"/>
+                <zone xml:id="zone_01KDT4TC3FG6WKGKEQ0RKRNEEM" type="measure" ulx="231" uly="424" lrx="324" lry="554"/>
+                <zone xml:id="zone_01KDT4TC3F58C40ZA0AYYZH1MG" type="measure" ulx="313" uly="426" lrx="385" lry="556"/>
+                <zone xml:id="zone_01KDT4TC3F36BK3H94CBKF062S" type="measure" ulx="374" uly="427" lrx="474" lry="557"/>
+                <zone xml:id="zone_01KDT4TC3FYFQE3DS9W188DT4D" type="measure" ulx="462" uly="427" lrx="580" lry="560"/>
+                <zone xml:id="zone_01KDT4TC3FSFG4XQVZ2QT904W6" type="measure" ulx="17" uly="548" lrx="141" lry="684"/>
+                <zone xml:id="zone_01KDT4TC3FTJ5JW7FX1CHXP0S4" type="measure" ulx="128" uly="546" lrx="219" lry="681"/>
+                <zone xml:id="zone_01KDT4TC3FCS886X9SEGHKEBG2" type="measure" ulx="207" uly="548" lrx="306" lry="680"/>
+                <zone xml:id="zone_01KDT4TC3FJXAHJ0GH2TJSFY6F" type="measure" ulx="292" uly="549" lrx="395" lry="674"/>
+                <zone xml:id="zone_01KDT4TC3GKYZDT5YMBWE0YJ09" type="measure" ulx="382" uly="549" lrx="483" lry="671"/>
+                <zone xml:id="zone_01KDT4TC3GWACK18K8K9M99GYE" type="measure" ulx="469" uly="552" lrx="575" lry="671"/>
+                <zone xml:id="zone_01KDT4TC3GS2QV4NQVNBPAVRKD" type="measure" ulx="18" uly="675" lrx="159" lry="800"/>
+                <zone xml:id="zone_01KDT4TC3HN2VN0JAN6HT0YGQ9" type="measure" ulx="145" uly="670" lrx="262" lry="800"/>
+                <zone xml:id="zone_01KDT4TC3HQFNBKDHRXEFG0F68" type="measure" ulx="248" uly="666" lrx="345" lry="800"/>
+                <zone xml:id="zone_01KDT4TC3HTEMV2HHCN0PMAQEF" type="measure" ulx="331" uly="661" lrx="432" lry="802"/>
+                <zone xml:id="zone_01KDT4TC3H450NB1VP1W7AN6JJ" type="measure" ulx="417" uly="661" lrx="498" lry="802"/>
+                <zone xml:id="zone_01KDT4TC3H60VQB40SYN4SJ3WW" type="measure" ulx="485" uly="660" lrx="578" lry="800"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="mdiv_01KDT4TC3AJ25MNWM7RSPP5GKJ" n="1" label="">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure xml:id="measure_01KDT4TC3DG17NC0HXWSNGX9VB" n="1" label="1" facs="#zone_01KDT4TC3DC86FQBCWB2PBRZX3"/>
+                        <measure xml:id="measure_01KDT4TC3DSX3DQZ2TFGX930BN" n="2" label="2" facs="#zone_01KDT4TC3DDSDA1GJAZQG3C6RS"/>
+                        <measure xml:id="measure_01KDT4TC3DC3FA5FN10CT74HV4" n="3" label="3" facs="#zone_01KDT4TC3DM89VJBJYZH3XXJ0G"/>
+                        <measure xml:id="measure_01KDT4TC3D29KXQR8WXVCKAVBP" n="4" label="4" facs="#zone_01KDT4TC3DXHTYHH1271HTFXFS"/>
+                        <measure xml:id="measure_01KDT4TC3DFR2DN1P2WB6ESHY8" n="5" label="5" facs="#zone_01KDT4TC3DP97QK9CTZDH6JTTB"/>
+                        <sb/>
+                        <measure xml:id="measure_01KDT4TC3DA0TGM8C14P2KVNH4" n="6" label="6" facs="#zone_01KDT4TC3DBH8YQ3ARDMKXXHA7"/>
+                        <measure xml:id="measure_01KDT4TC3EEBS06AF9X4ZKY9ZR" n="7" label="7" facs="#zone_01KDT4TC3DF4T556C9CRG21NE8"/>
+                        <measure xml:id="measure_01KDT4TC3EB96ZST1N59PCJF8V" n="8" label="8" facs="#zone_01KDT4TC3E4YK44G86FFXWQM2R"/>
+                        <measure xml:id="measure_01KDT4TC3E6MY64T5TNS5JTPC2" n="9" label="9" facs="#zone_01KDT4TC3E2EPKKDZ21TMP2229"/>
+                        <measure xml:id="measure_01KDT4TC3EDCKX7Q4E1YD3ADEF" n="10" label="10" facs="#zone_01KDT4TC3ER6JM9135NTRXZVYJ"/>
+                        <measure xml:id="measure_01KDT4TC3EGW292G22489R1KYY" n="11" label="11" facs="#zone_01KDT4TC3EHKK41P04HY3WMCCX"/>
+                        <sb/>
+                        <measure xml:id="measure_01KDT4TC3EZECNZYY0VK9MGNJC" n="12" label="12" facs="#zone_01KDT4TC3EJ6Y4GDAN6JY0K33F"/>
+                        <measure xml:id="measure_01KDT4TC3E857FSGDTF7RDYMDV" n="13" label="13" facs="#zone_01KDT4TC3ENZY3AF91VMHG95JZ"/>
+                        <measure xml:id="measure_01KDT4TC3E3ZV2VAYBRNZCKR7P" n="14" label="14" facs="#zone_01KDT4TC3ERGD5467RTDDJEBJY"/>
+                        <measure xml:id="measure_01KDT4TC3EX0642KQYEB1C7ZCP" n="15" label="15" facs="#zone_01KDT4TC3E56V2K664YAXZS55N"/>
+                        <measure xml:id="measure_01KDT4TC3FWCE8HGN33R7G9MQV" n="16" label="16" facs="#zone_01KDT4TC3F3FDM674C2T6B46TG"/>
+                        <sb/>
+                        <measure xml:id="measure_01KDT4TC3FDW8R9HFRT8M6T92G" n="17" label="17" facs="#zone_01KDT4TC3FS5E3RD9SEV0VCDWG"/>
+                        <measure xml:id="measure_01KDT4TC3FS3GF5T69KRXM2BT0" n="18" label="18" facs="#zone_01KDT4TC3FJWJCF2EDGYCW3D38"/>
+                        <measure xml:id="measure_01KDT4TC3FAR6GFV0QC7YHVKZF" n="19" label="19" facs="#zone_01KDT4TC3FG6WKGKEQ0RKRNEEM"/>
+                        <measure xml:id="measure_01KDT4TC3FNQ37R46GDXTKAMV4" n="20" label="20" facs="#zone_01KDT4TC3F58C40ZA0AYYZH1MG"/>
+                        <measure xml:id="measure_01KDT4TC3FA7CZR5Y32QN5MY8N" n="21" label="21" facs="#zone_01KDT4TC3F36BK3H94CBKF062S"/>
+                        <measure xml:id="measure_01KDT4TC3F2H2GWHBAXMW9B743" n="22" label="22" facs="#zone_01KDT4TC3FYFQE3DS9W188DT4D"/>
+                        <sb/>
+                        <measure xml:id="measure_01KDT4TC3FE4BQ2R37CBFBW0H6" n="23" label="23" facs="#zone_01KDT4TC3FSFG4XQVZ2QT904W6"/>
+                        <measure xml:id="measure_01KDT4TC3FG2QV92VVD4E8GZAR" n="24" label="24" facs="#zone_01KDT4TC3FTJ5JW7FX1CHXP0S4"/>
+                        <measure xml:id="measure_01KDT4TC3FFF6JQR819GHSJ2KY" n="25" label="25" facs="#zone_01KDT4TC3FCS886X9SEGHKEBG2"/>
+                        <measure xml:id="measure_01KDT4TC3GVE933V11WC1FV3WV" n="26" label="26" facs="#zone_01KDT4TC3FJXAHJ0GH2TJSFY6F"/>
+                        <measure xml:id="measure_01KDT4TC3G4E7H743AJE0678FR" n="27" label="27" facs="#zone_01KDT4TC3GKYZDT5YMBWE0YJ09"/>
+                        <measure xml:id="measure_01KDT4TC3GSP9BX1TXB05KAPVQ" n="28" label="28" facs="#zone_01KDT4TC3GWACK18K8K9M99GYE"/>
+                        <sb/>
+                        <measure xml:id="measure_01KDT4TC3GW401M4D0FAZZTW0C" n="29" label="29" facs="#zone_01KDT4TC3GS2QV4NQVNBPAVRKD"/>
+                        <measure xml:id="measure_01KDT4TC3HAW1N1CEBXZNAQPPV" n="30" label="30" facs="#zone_01KDT4TC3HN2VN0JAN6HT0YGQ9"/>
+                        <measure xml:id="measure_01KDT4TC3HTR97HSKJCANCVWYJ" n="31" label="31" facs="#zone_01KDT4TC3HQFNBKDHRXEFG0F68"/>
+                        <measure xml:id="measure_01KDT4TC3HFJ4CGB1VZ48F71QT" n="32" label="32" facs="#zone_01KDT4TC3HTEMV2HHCN0PMAQEF"/>
+                        <measure xml:id="measure_01KDT4TC3HF8DQF7XETK0EVZ5E" n="33" label="33" facs="#zone_01KDT4TC3H450NB1VP1W7AN6JJ"/>
+                        <measure xml:id="measure_01KDT4TC3HZFBQ4CQ1V4JYCQEX" n="34" label="34" facs="#zone_01KDT4TC3H60VQB40SYN4SJ3WW"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
