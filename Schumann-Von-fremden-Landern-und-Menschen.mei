@@ -21,7 +21,7 @@
                <name xml:id="nslrjs3">Verovio</name>
                <p xml:id="p18qr6jb">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a2d0ssp1" enddate="2025-12-01T14:11:40" startdate="2025-12-01T13:46:27" version="1.2.9">
+            <application xml:id="a2d0ssp1" enddate="2026-05-06T09:24:57" startdate="2025-12-01T13:46:27" version="1.2.13">
                <name xml:id="nlnjefk1">mei-friend</name>
                <p xml:id="pecanq8">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -472,7 +472,7 @@
                            </layer>
                         </staff>
                         <slur xml:id="e1yjvaas" curvedir="above" endid="#w18ogphs" startid="#cgsrszn"/>
-                        <slur xml:id="c17lx3cm" endid="#u11u1d1l" startid="#boh0aty"/>
+                        <slur xml:id="c17lx3cm" curvedir="below" endid="#u11u1d1l" startid="#boh0aty"/>
                      </measure>
                      <sb xml:id="sz38ymu2"/>
                      <measure xml:id="fs69iw8" n="12">
