@@ -25,7 +25,7 @@
                <name xml:id="na9pe01">Verovio</name>
                <p xml:id="p5rt1g7">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a5en8rm2" startdate="2026-07-08T12:45:23" version="1.4.1" enddate="2026-07-09T11:19:08">
+            <application xml:id="a5en8rm2" startdate="2026-07-08T12:45:23" version="1.4.1" enddate="2026-07-09T11:19:42">
                <name xml:id="nkcnym11">mei-friend</name>
                <p xml:id="p41wta7">First edit by mei-friend 1.4.1.</p>
             </application>
@@ -216,7 +216,7 @@
                               <note xml:id="n1qqwg6y" oct="3" pname="g" />
                               <note xml:id="nf4g1sw" oct="4" pname="c" />
                               <note xml:id="n1n3ci67" oct="4" pname="e" accid.ges="f" />
-                              <note xml:id="n1v6rlxq" oct="4" pname="g" />
+                              <note xml:id="n1v6rlxq" accid.ges="f" oct="4" pname="a"/>
                            </chord>
                            <rest xml:id="r9tcze8" dur.ppq="48" dur="8" />
                            <chord xml:id="ccx8qoj" dur.ppq="48" dur="8" stem.dir="up">
